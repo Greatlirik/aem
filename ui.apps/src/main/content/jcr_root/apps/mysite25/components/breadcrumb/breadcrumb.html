@@ -1,0 +1,6 @@
+<div class="" data-sly-use.breadcrumb="com.mysite25.core.models.Breadcrumb">
+    <div class="" data-sly-list.item="${breadcrumb.items}">
+        <a href="${!itemList.last ? item.path  : '' @ extension = 'html'}" target="_self">${item.title}</a>
+        <b data-sly-text="${!itemList.last ? ' → '  : ''}"></b>
+    </div>
+</div>

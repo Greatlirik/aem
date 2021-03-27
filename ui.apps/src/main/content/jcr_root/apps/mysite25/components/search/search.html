@@ -1,0 +1,12 @@
+<form class="search" method="get" data-sly-use.search="com.mysite25.core.models.Search">
+    <input type="search" name="search">
+    <input type="submit" value="${properties.searchEngine}">
+
+    <h2 data-sly-test="${search.items}">Search results with ${properties.searchEngine}:</h2>
+    <table class="table" data-sly-list.item="${search.items}">
+        <tr>
+            <td><a href="${item.path @ extension = 'html'}" target="_self">${item.title}</a></td>
+            <td>${item.path}</td>
+        </tr>
+    </table>
+</form>

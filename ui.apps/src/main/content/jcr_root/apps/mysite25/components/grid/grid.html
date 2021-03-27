@@ -1,0 +1,7 @@
+<div class="" data-sly-use.grid="com.mysite25.core.models.Grid">
+    <div class=" grid-${properties.columns}" data-sly-list.row="${grid.rows}">
+        <sly class="" data-sly-list.cell="${row.cells}">
+            <span class="" data-sly-resource="${cell.id @ resourceType='wcm/foundation/components/parsys' }"></span>
+        </sly>
+    </div>
+</div>

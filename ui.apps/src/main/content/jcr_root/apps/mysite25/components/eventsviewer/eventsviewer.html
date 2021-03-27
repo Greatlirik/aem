@@ -1,0 +1,36 @@
+<div class="eventsviewer-component">
+    <h1>${component.name}</h1>
+    <div id="root"></div>
+    <script id="template" type="text/x-handlebars-template">
+        <table>
+            <thead>
+            <tr>
+                <th>Text</th>
+                <th>Date</th>
+            </tr>
+            </thead>
+            {{#each events}}
+            <tbody>
+            <tr>
+                <th>{{text}}</th>
+                <th>{{date}}</th>
+            </tr>
+            </tbody>
+            {{/each}}
+        </table>
+
+        {{#pagination 3}}
+        <div class="pagination">
+            <a class="{{prevClass}}" href="#1">first</a>
+            <a class="{{prevClass}}" href="#{{prevPage}}">prev</a>
+
+            {{#each pages}}
+            <a class="page-button {{currentClass}}" href="#{{pageNumber}}">{{pageNumber}}</a>
+            {{/each}}
+
+            <a class="{{nextClass}}" href="#{{nextPage}}">next</a>
+            <a class="{{nextClass}}" href="#{{pageCount}}">last</a>
+        </div>
+        {{/pagination}}
+    </script>
+</div>
