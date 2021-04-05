@@ -1,6 +1,12 @@
-# Sample AEM project template
+# Sample AEM project 
 
-This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
+Creating aem components with using aem-project-archetype(start instructions below)
+Aem components: 
+* grid
+* breadcrumb
+* hero, searchService
+* eventManager
+
 
 ## Modules
 
