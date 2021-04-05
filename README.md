@@ -1,6 +1,6 @@
 # Sample AEM project 
 
-Creating aem components with using aem-project-archetype(start instructions below)
+Creating aem components with using aem-project-archetype(start instructions and project description below)
 
 Aem components: 
 * grid
