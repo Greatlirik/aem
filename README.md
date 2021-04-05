@@ -1,6 +1,7 @@
 # Sample AEM project 
 
 Creating aem components with using aem-project-archetype(start instructions below)
+
 Aem components: 
 * grid
 * breadcrumb
