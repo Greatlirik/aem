@@ -27,13 +27,13 @@ Create search field component included in header implemented in previous task. C
 
 ## eventManager
 Create service to provide event management.  
-1.Event component (Date should be Date) 
-2.Event admin page 
-3.Service to provide data (should be configurable) 
-4.“Render” servlet and services to provide data in corresponding format (xml, json) 
-5.Pages to show events table 
-6.Add sorting to column headers (Event viewer). 
-7.Add pagination (Event viewer).
+1.Event component (Date should be Date)<br/> 
+2.Event admin page <br/>
+3.Service to provide data (should be configurable) <br/>
+4.“Render” servlet and services to provide data in corresponding format (xml, json) <br/>
+5.Pages to show events table <br/>
+6.Add sorting to column headers (Event viewer). <br/>
+7.Add pagination (Event viewer).<br/>
 <br/><br/><br/><br/><br/> 
 
 
