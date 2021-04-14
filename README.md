@@ -3,10 +3,40 @@
 Creating aem components with using aem-project-archetype(start instructions and project description below)
 
 Aem components: 
-* grid
-* breadcrumb
-* hero, searchService
-* eventManager
+##  grid
+Implement grid from parsys which would contain the same “Grid Parsys” and other components. Dialog would allow to set count of rows & columns.  It is necessary to delete unused nodes after editing.
+<br/><br/><br/>
+
+
+## hero
+Implement component, which contains image, plain text, rich text and link. Dialog would have 3 tabs: 1 - for image (possible to drop or upload image, try disabled mode); 2 -plain text (simple text field), rich (rich text component with formatting, links & etc);  3 - link, link text (possibility to select path only from your site and selection where to open this link: blank, new tab... ). 
+<br/><br/><br/>
+
+
+## breadcrumb
+Implement page structure with inheritance. Should have three types: master page, home page and content page. Master is the parent page for other types it contains common things like header, footer, libs etc. Home page is the root of your site and all other pages will be stored under it. Content page is just regular page with some data. Avoid creating unnecessary templates. 
+Implement component for navigation. [Home -> Page1 -> Page2 -> … -> Parent of current page -> Current(not link) ] For ${Page%d} - ‘Navigation Title’ should be used if no then ‘Page Title’ -> Title. Pages are marked as “Hide in Navigation” should be skipped.
+<br/><br/><br/>
+
+
+## searchService
+Create search field component included in header implemented in previous task. Component should have implementation of XPath, SQL2, Predicates. Corresponding engine is selected in dialog. The search should be performed on the child nodes.
+<br/><br/><br/>
+
+
+
+## eventManager
+Create service to provide event management.  
+1.Event component (Date should be Date) 
+2.Event admin page 
+3.Service to provide data (should be configurable) 
+4.“Render” servlet and services to provide data in corresponding format (xml, json) 
+5.Pages to show events table 
+6.Add sorting to column headers (Event viewer). 
+7.Add pagination (Event viewer).
+<br/><br/><br/><br/><br/> 
+
+
 
 
 ## Modules
